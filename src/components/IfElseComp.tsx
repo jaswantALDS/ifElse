@@ -140,7 +140,7 @@ const IfElseComp = () => {
     "Events",
   ];
   const ContactOptions = ["Back to all Actions", "Address 1", "Address 2"];
-  console.log("changes", formValues);
+  console.log("formValues", formValues);
 
   const handleAddCondition = (branchIndex: number, segmentIndex: number) => {
     // Create a new condition object
